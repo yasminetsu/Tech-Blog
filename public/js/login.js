@@ -18,7 +18,6 @@ const loginFormHandler = async (event) => {
     }
   }
 };
-
 const signupFormHandler = async (event) => {
   event.preventDefault();
 
@@ -40,7 +39,6 @@ const signupFormHandler = async (event) => {
     }
   }
 };
-
 document
   .querySelector('.login-form')
   .addEventListener('submit', loginFormHandler);
